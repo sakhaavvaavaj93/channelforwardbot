@@ -1,0 +1,46 @@
+{
+    "name": "bot to channel bot",
+    "description": "A simple Message Forwarder Bot",
+    "logo" : "https://telegra.ph/file/90cb5259d0d77b4e0bd11.jpg",
+    "keywords": [
+        "telegram",
+        "torrent",
+        "searcher"
+    ],
+    "website": "https://github.com/sakhaavvaavaj93/channelforwardbot",
+    "repository": "https://github.com/sakhaavvaavaj93/channelforwardbot",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "1608792213:AAFXoXyW-P0zipOfaOeR_--WIomkp3PnZ7s",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash",
+            "value": "f1933c5fb9c5c7b4fc1240ae36c809df"
+        },
+        "CHANNEL_ID": {
+            "description": "Your Channel Id",
+            "value": "-1001386516675"
+        },
+        "WEBHOOK": {
+            "description": "Set this to ANYTHING",
+            "value": "ANYTHING"
+        },
+        "APP_ID": {
+            "description": "Your APP ID",
+            "value": "1755145"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
